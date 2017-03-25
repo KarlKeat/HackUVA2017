@@ -1,0 +1,47 @@
+{
+  "schedules" : {
+    "ffffffff" : {
+      "blacklist" : {
+        "fri" : {
+          "730" : true
+        },
+        "mon" : {
+          "1200" : true,
+          "2230" : true,
+          "2330" : true
+        },
+        "sat" : {
+          "830" : true
+        },
+        "sun" : {
+          "1500" : true
+        },
+        "thu" : {
+          "1130" : true
+        },
+        "tue" : {
+          "1330" : true
+        },
+        "wed" : {
+          "1230" : true
+        }
+      },
+      "productivetimes" : [ {
+        "day" : "mon",
+        "prob" : 0.74323,
+        "time" : 1300
+      }, {
+        "day" : "tue",
+        "prob" : 0.88932,
+        "time" : 1200
+      } ]
+    }
+  },
+  "users" : {
+    "ffffffff" : {
+      "firstname" : "Bob",
+      "lastname" : "Jones",
+      "username" : "bjones"
+    }
+  }
+}
