@@ -34,7 +34,8 @@
         "day" : "tue",
         "prob" : 0.88932,
         "time" : 1200
-      } ]
+      } ],
+      "responses" : [ "mon,1230,4", "wed,830,2" ]
     }
   },
   "users" : {
